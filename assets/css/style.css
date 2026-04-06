@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10vh;
+  width: 100%;
+  background-color: #000000ff;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.divLogoP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.pLogo {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.438rem;
+  line-height: 1.438rem;
+  font-weight: 700;
+  color: #fac72eff;
+}
+
+.ulNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1.45rem;
+}
+
+.liServico,
+.liCatalogo,
+.liLocalizacao {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #f3f4f6ff;
+  line-height: 1.375rem;
+}
+
+.aOrcamento {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+  text-decoration: none;
+  color: #19191fff;
+  background: #e0aa06ff;
+  padding: 0.4rem 2rem;
+  border: 1px solid #e0aa06ff;
+  border-radius: 0.375rem;
+}
+
+/* MAIN */
+
+.imgMain {
+  width: 101%;
+  object-fit: cover;
+}
+
+.divMain {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 10vh;
+}
+
+.divH1H2Main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 10rem;
+  object-fit: cover;
+  gap: 1.5rem;
+}
+
+.h1Main {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 4.5rem;
+  line-height: 4.9rem;
+  font-weight: 700;
+  color: #f3f4f6ff;
+}
+
+.SpanH1Main {
+  color: #fac72eff;
+}
+
+.h2Main {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #bdc1caff;
+}
+
+.divTodasAMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+
+.divAMain {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fac72eff;
+  background: #fac72eff;
+  border-radius: 0.375rem;
+  width: 13rem;
+  height: 2.5rem;
+  color: 19191FFF;
+}
+
+.aMainSolic {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  color: #19191fff;
+}
+
+.imgA {
+  width: 1rem;
+  height: 1rem;
+}
+
+.divADoisMain {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #f3f4f6ff;
+  border-radius: 0.375rem;
+  width: 13rem;
+  height: 2.5rem;
+}
+
+.aMainVer {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  color: #f3f4f6ff;
+}
+.imgADois {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Catalogo */
+
+.catalogo {
+  background-color: #000000ff;
+}
+
+.divCatalogo {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 1rem;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.divH2H3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.h2Catalogo {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #ffffffff;
+}
+
+.h3Catalogo {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #9095a1ff;
+}
+
+.gridCatalogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 2rem;
+}
+
+.divGridOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  justify-content: flex-start;
+  background: #1e2128ff;
+  max-width: 20rem;
+  width: 100%;
+  height: 30.813rem;
+  border: 1px solid #323743ff;
+  border-radius: 1rem;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+.imgGridOne {
+  max-width: 19.875rem;
+  width: 100%;
+  height: 13.25rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.divPGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 0 1rem;
+  gap: 1rem;
+}
+
+.pCartoes {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: #f3f4f6ff;
+}
+
+.pPapel {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #bdc1caff;
+}
+
+.hrGrid {
+  width: 85%;
+  height: 0;
+  border: 1px solid #32374380;
+}
+
+.divPrecos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pPrecos {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #fac72eff;
+}
+
+.aPedir {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #f3f4f6ff;
+  text-decoration: none;
+}
