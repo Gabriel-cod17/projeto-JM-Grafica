@@ -204,7 +204,7 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   min-height: 100vh;
-  padding: 1rem;
+  padding: 2rem 1rem;
   gap: 2rem;
   overflow: hidden;
 }
@@ -318,4 +318,218 @@ body {
   line-height: 1.625rem;
   color: #f3f4f6ff;
   text-decoration: none;
+}
+
+/* Serviços */
+
+.Servicos {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  background: linear-gradient(180deg, #f3f4f6ff 0%, #b9bfcaff 100%);
+}
+
+.divServicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  min-height: 80vh;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.divH3P {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.h3Servicos {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #000000ff;
+}
+
+.spanEspecializados {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #fac72eff;
+}
+
+.pAlem {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #000000ff;
+}
+
+.divGridServicos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
+
+.gridServicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: baseline;
+  text-align: left;
+  width: 100%;
+  max-width: 20.75rem;
+  height: 21.5rem;
+  border: 1px solid #323743ff;
+  border-radius: 1rem;
+  background: #000000ff;
+  padding: 1.5rem;
+
+  overflow: hidden;
+}
+
+.divImgGrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #fac72e1a;
+  border: 1px solid #fac72e1a;
+  border-radius: 1rem;
+}
+
+.imgGridServicos {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.h3GridServicos {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: #f3f4f6ff;
+}
+
+.pGridServicos {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #bdc1caff;
+}
+
+/* section A Arte */
+
+.AArte {
+  background: #000000ff;
+}
+
+.divAArte {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  min-height: 90vh;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+.imgAArte {
+  width: 100%;
+  max-width: 29.875rem;
+  height: 30rem;
+  border-radius: 0.5rem;
+}
+
+.divArteH3P {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.h3Arte {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #f3f4f6ff;
+}
+
+.spanh3 {
+  color: #fac72eff;
+}
+
+.PArte {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.813rem;
+  color: #bdc1caff;
+}
+
+.pArteDois {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.813rem;
+  color: #bdc1caff;
+}
+
+.hrH3PP {
+  max-width: 30rem;
+  width: 100%;
+  height: 0;
+  border: 1px solid #323743ff;
+}
+
+.div30e10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.div30,
+.div10k {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.p30,
+.p10 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #fac72eff;
+}
+
+.pAnos,
+.pProjetos {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #bdc1caff;
 }
