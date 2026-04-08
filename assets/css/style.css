@@ -533,3 +533,244 @@ body {
   line-height: 1.25rem;
   color: #bdc1caff;
 }
+
+/* section Por que escolher */
+.Por-Que-Escolher {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  background: linear-gradient(180deg, #f3f4f6ff 0%, #b9bfcaff 100%);
+}
+
+.divPorQue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  min-height: 60vh;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 5rem;
+}
+
+.divH3PAPorque {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.h3Porque {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #000000ff;
+  gap: 1rem;
+}
+
+.spanPrime {
+  color: #fac72eff;
+}
+
+.PPorque {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #171a1fff;
+}
+
+.aH3Porque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fac72eff;
+  background: #fac72eff;
+  border-radius: 0.375rem;
+  width: 13rem;
+  height: 2.5rem;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 0.93rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #171a1fff;
+}
+
+.divGridPorQue {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.GridPorque {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.divOnegrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.imgGridPorque {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.divGridTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.PGridOne {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 700;
+  color: #000000ff;
+}
+
+.PGridTwo {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  color: #171a1fff;
+}
+
+/* Section localizacao */
+
+.Localizacao {
+  background: #000000ff;
+}
+
+.divlocalizacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  min-height: 60vh;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 5rem;
+}
+
+.h2h3div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.h2Locali {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #f3f4f6ff;
+  gap: 1rem;
+}
+
+.spanLocali {
+  color: #fac72eff;
+}
+
+.h3Locali {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  color: #bdc1caff;
+}
+
+.aLocali {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fac72eff;
+  background: #fac72eff;
+  border-radius: 0.375rem;
+  width: 17.5rem;
+  height: 3rem;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #171a1fff;
+}
+
+.enderecoHorario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #171a1fff;
+  width: 100%;
+  max-width: 30rem;
+  min-height: 15.125rem;
+  padding: 3rem;
+  border: 1px solid #323743ff;
+  border-radius: 1rem;
+}
+
+.divEndereco,
+.divHorario {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.endereco,
+.horario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imgEndereco,
+.imgHorario {
+  width: 1rem;
+  height: 1rem;
+}
+
+.psEndereco,
+.psHorario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.1rem;
+}
+
+.pEnderecoOne,
+.pHorarioOne {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: #f3f4f6ff;
+}
+
+.pEnderecoTwo,
+.pHorarioTwo {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #bdc1caff;
+}
