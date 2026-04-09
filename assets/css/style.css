@@ -83,7 +83,10 @@ body {
 
 .imgMain {
   width: 101%;
+  height: auto;
+  min-height: 25rem;
   object-fit: cover;
+  display: block;
 }
 
 .divMain {
@@ -92,7 +95,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  min-height: 10vh;
+  width: 100%;
 }
 
 .divH1H2Main {
@@ -365,6 +368,9 @@ body {
   line-height: 2.5rem;
   font-weight: 700;
   color: #fac72eff;
+  text-shadow:
+    2px 2px 5px black,
+    0 0 10px #ffd700;
 }
 
 .pAlem {
@@ -474,6 +480,9 @@ body {
 
 .spanh3 {
   color: #fac72eff;
+  text-shadow:
+    2px 2px 5px black,
+    0 0 10px #ffd700;
 }
 
 .PArte {
@@ -573,6 +582,9 @@ body {
 
 .spanPrime {
   color: #fac72eff;
+  text-shadow:
+    2px 2px 5px black,
+    0 0 10px #ffd700;
 }
 
 .PPorque {
@@ -684,6 +696,9 @@ body {
 
 .spanLocali {
   color: #fac72eff;
+  text-shadow:
+    2px 2px 5px black,
+    0 0 10px #ffd700;
 }
 
 .h3Locali {
@@ -772,5 +787,105 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
+  color: #bdc1caff;
+}
+
+/* Clientes */
+
+.Clientes {
+  background: linear-gradient(180deg, #f3f4f6ff 0%, #b9bfcaff 100%);
+}
+
+.divClientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 5rem;
+}
+
+.divH2H3Clientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.h2Clientes {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #000000ff;
+  gap: 1rem;
+}
+
+.spanClientes {
+  color: #fac72eff;
+  text-shadow:
+    2px 2px 5px black,
+    0 0 10px #ffd700;
+}
+
+.h3Clientes {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  color: #171a1fff;
+}
+
+.gridsClientes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.gridCliente {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #000000ff;
+  width: 100%;
+  max-width: 21.5rem;
+  height: 21.375rem;
+  border: 1px solid #323743ff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.imgEstrelas {
+  width: 6rem;
+  height: 6rem;
+}
+
+.pGridOneClientes {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #bdc1caff;
+}
+
+.pGridTwoClientes {
+  margin-top: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+  color: #f3f4f6ff;
+}
+
+.spanGridClientes {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
   color: #bdc1caff;
 }
