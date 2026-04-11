@@ -56,6 +56,13 @@ body {
   font-size: 1.2rem;
   color: #f3f4f6ff;
   line-height: 1.375rem;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.divANav {
+  cursor: pointer;
+  transition: transform 0.5s ease;
 }
 
 .aOrcamento {
@@ -69,6 +76,7 @@ body {
   padding: 0.4rem 2rem;
   border: 1px solid #e0aa06ff;
   border-radius: 0.375rem;
+  transition: color 0.5s ease;
 }
 
 /* MAIN */
@@ -101,7 +109,7 @@ body {
   margin: 0 auto;
   padding: 10rem;
   object-fit: cover;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .h1Main {
@@ -128,7 +136,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
+  width: 100%;
 }
 
 .divAMain {
@@ -140,18 +149,22 @@ body {
   border: 1px solid #fac72eff;
   background: #fac72eff;
   border-radius: 0.375rem;
-  width: 13rem;
-  height: 2.5rem;
+  width: 100%;
+  max-width: 14rem;
+  height: 3rem;
   color: 19191FFF;
+  transition: transform 0.5s ease;
+  cursor: pointer;
 }
 
 .aMainSolic {
   text-decoration: none;
   font-family: "Inter", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.75rem;
   color: #19191fff;
+  transition: color 0.7s ease;
 }
 
 .imgA {
@@ -168,17 +181,20 @@ body {
   background: transparent;
   border: 1px solid #f3f4f6ff;
   border-radius: 0.375rem;
-  width: 13rem;
-  height: 2.5rem;
+  width: 100%;
+  max-width: 14rem;
+  height: 3rem;
+  transition: transform 0.5s ease;
 }
 
 .aMainVer {
   text-decoration: none;
   font-family: "Inter", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.75rem;
   color: #f3f4f6ff;
+  transition: color 0.7s ease;
 }
 .imgADois {
   width: 1rem;
@@ -232,7 +248,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .divGridOne {
@@ -242,17 +258,18 @@ body {
   text-align: left;
   justify-content: flex-start;
   background: #1e2128ff;
-  max-width: 20rem;
+  max-width: 30rem;
   width: 100%;
-  height: 30.813rem;
+  height: 32.813rem;
   border: 1px solid #323743ff;
   border-radius: 1rem;
   gap: 1.5rem;
   overflow: hidden;
+  transition: transform 0.5s ease;
 }
 
 .imgGridOne {
-  max-width: 19.875rem;
+  max-width: 30rem;
   width: 100%;
   height: 13.25rem;
   border-radius: 1rem 1rem 0 0;
@@ -296,6 +313,8 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  padding: 1rem;
+  overflow: hidden;
 }
 
 .pPrecos {
@@ -319,8 +338,12 @@ body {
   border: 1px solid #fac72eff;
   border-radius: 1rem;
   background: transparent;
-  width: 7rem;
+  width: 100%;
+  max-width: 7.5rem;
   height: 2rem;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  overflow: hidden;
 }
 
 /* Serviços */
@@ -602,14 +625,19 @@ body {
   border: 1px solid #fac72eff;
   background: #fac72eff;
   border-radius: 0.375rem;
-  width: 13rem;
-  height: 2.5rem;
+  width: 100%;
+  max-width: 14rem;
+  height: 3rem;
   text-decoration: none;
   font-family: "Inter", sans-serif;
-  font-size: 0.93rem;
+  font-size: 0.99rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #171a1fff;
+  cursor: pointer;
+  transition:
+    transform 0.5s ease,
+    color 0.5s ease;
 }
 
 .divGridPorQue {
@@ -716,14 +744,19 @@ body {
   border: 1px solid #fac72eff;
   background: #fac72eff;
   border-radius: 0.375rem;
-  width: 17.5rem;
-  height: 3rem;
+  width: 100%;
+  width: 20rem;
+  height: 3.2rem;
   text-decoration: none;
   font-family: "Inter", sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.99rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #171a1fff;
+  cursor: pointer;
+  transition:
+    transform 0.5s ease,
+    color 0.5s ease;
 }
 
 .enderecoHorario {
@@ -920,7 +953,7 @@ body {
   max-width: 1200px;
   min-height: 80vh;
   padding: 1rem;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .h2Pronto {
@@ -960,6 +993,8 @@ body {
   max-width: 20rem;
   height: 4rem;
   color: 19191FFF;
+  transition: transform 0.5s ease;
+  cursor: pointer;
 }
 
 .imgPronto {
@@ -974,6 +1009,7 @@ body {
   font-weight: 600;
   line-height: 1.75rem;
   color: #19191fff;
+  transition: color 0.5s ease;
 }
 
 .pPronto {
@@ -1123,4 +1159,70 @@ body {
   line-height: 1.5rem;
   font-weight: 200;
   color: #000000ff;
+}
+
+@media (hover: hover) {
+  /* nav */
+  .liServico:hover,
+  .liLocalizacao:hover,
+  .liCatalogo:hover {
+    transform: scale(1.1);
+  }
+
+  .divANav:hover {
+    transform: scale(1.1);
+  }
+
+  .aOrcamento:hover {
+    color: white;
+  }
+  /* main */
+
+  .divAMain:hover {
+    transform: scale(1.1);
+  }
+  .aMainSolic:hover {
+    color: white;
+  }
+
+  .divADoisMain:hover {
+    transform: scale(1.1);
+  }
+  .aMainVer:hover {
+    color: #fac72eff;
+  }
+
+  /* Catalogo */
+
+  .divGridOne:hover {
+    transform: scale(1.1);
+  }
+
+  .aPedir:hover {
+    background: #fac72eff;
+  }
+
+  /* Porque */
+
+  .aH3Porque:hover {
+    transform: scale(1.1);
+    color: white;
+  }
+
+  /* Localização */
+
+  .aLocali:hover {
+    transform: scale(1.1);
+    color: white;
+  }
+
+  /* Pronto */
+
+  .divAPronto:hover {
+    transform: scale(1.1);
+  }
+
+  .aProntoSolici:hover {
+    color: green;
+  }
 }
