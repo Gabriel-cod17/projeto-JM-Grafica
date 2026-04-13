@@ -81,43 +81,32 @@ body {
 
 /* MAIN */
 
-.imgMain {
-  width: 101%;
-  height: auto;
-  min-height: 25rem;
-  object-fit: cover;
-  display: block;
-}
-
 .divMain {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  width: 100%;
+  background-image: url("../img/imgMain.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .divH1H2Main {
-  position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
   justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
   max-width: 1200px;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 10rem;
-  object-fit: cover;
-  gap: 2rem;
+  gap: 2.5rem;
+  padding: 1rem;
 }
-
 .h1Main {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 4.5rem;
-  line-height: 4.9rem;
+  line-height: 5rem;
   font-weight: 700;
   color: #f3f4f6ff;
+  width: 100%;
+  max-width: 11ch;
 }
 
 .SpanH1Main {
@@ -128,14 +117,17 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
-  line-height: 1.75rem;
+  line-height: 1.8rem;
   color: #bdc1caff;
+  width: 100%;
+  max-width: 50ch;
 }
 
 .divTodasAMain {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
   gap: 2rem;
   width: 100%;
 }
@@ -149,10 +141,8 @@ body {
   border: 1px solid #fac72eff;
   background: #fac72eff;
   border-radius: 0.375rem;
-  width: 100%;
-  max-width: 14rem;
-  height: 3rem;
-  color: 19191FFF;
+  padding: 0.6rem 1rem;
+  color: #19191fff;
   transition: transform 0.5s ease;
   cursor: pointer;
 }
@@ -181,9 +171,7 @@ body {
   background: transparent;
   border: 1px solid #f3f4f6ff;
   border-radius: 0.375rem;
-  width: 100%;
-  max-width: 14rem;
-  height: 3rem;
+  padding: 0.6rem 1.2rem;
   transition: transform 0.5s ease;
 }
 
@@ -208,16 +196,19 @@ body {
 }
 
 .divCatalogo {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.catalogo {
   display: flex;
   flex-direction: column;
   align-items: normal;
   justify-content: center;
-  margin: 0 auto;
-  max-width: 1200px;
-  min-height: 100vh;
-  padding: 5rem;
   gap: 2rem;
-  overflow: hidden;
 }
 
 .divH2H3 {
@@ -242,6 +233,8 @@ body {
   font-weight: 400;
   line-height: 1.75rem;
   color: #9095a1ff;
+  width: 100%;
+  max-width: 60ch;
 }
 
 .gridCatalogo {
@@ -258,9 +251,9 @@ body {
   text-align: left;
   justify-content: flex-start;
   background: #1e2128ff;
-  max-width: 30rem;
+  max-width: 20rem;
   width: 100%;
-  height: 32.813rem;
+  height: auto;
   border: 1px solid #323743ff;
   border-radius: 1rem;
   gap: 1.5rem;
@@ -314,7 +307,6 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 1rem;
-  overflow: hidden;
 }
 
 .pPrecos {
@@ -323,6 +315,8 @@ body {
   font-weight: 400;
   line-height: 1.625rem;
   color: #fac72eff;
+  width: 100%;
+  max-width: 10ch;
 }
 
 .aPedir {
@@ -339,21 +333,16 @@ body {
   border-radius: 1rem;
   background: transparent;
   width: 100%;
-  max-width: 7.5rem;
-  height: 2rem;
   cursor: pointer;
   transition: background 0.5s ease;
-  overflow: hidden;
+  padding: 0.2rem;
 }
 
 /* Serviços */
 
 .Servicos {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  gap: 1rem;
   background: linear-gradient(180deg, #b9bfcaff 0%, #b9bfcaff 100%);
+  padding: 3rem;
 }
 
 .divServicos {
@@ -402,6 +391,8 @@ body {
   font-weight: 400;
   line-height: 1.75rem;
   color: #000000ff;
+  width: 100%;
+  max-width: 60ch;
 }
 
 .divGridServicos {
@@ -464,6 +455,7 @@ body {
 
 .AArte {
   background: #000000ff;
+  padding: 2rem;
 }
 
 .divAArte {
@@ -474,14 +466,14 @@ body {
   max-width: 1200px;
   min-height: 90vh;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
   gap: 4rem;
 }
 
 .imgAArte {
-  width: 100%;
-  max-width: 29.875rem;
   height: 30rem;
+  width: auto;
+  object-fit: cover;
   border-radius: 0.5rem;
 }
 
@@ -514,6 +506,8 @@ body {
   font-weight: 400;
   line-height: 1.813rem;
   color: #bdc1caff;
+  width: 100%;
+  max-width: 60ch;
 }
 
 .pArteDois {
@@ -522,6 +516,8 @@ body {
   font-weight: 400;
   line-height: 1.813rem;
   color: #bdc1caff;
+  width: 100%;
+  max-width: 60ch;
 }
 
 .hrH3PP {
@@ -601,6 +597,8 @@ body {
   font-weight: 700;
   color: #000000ff;
   gap: 1rem;
+  width: 100%;
+  max-width: 12ch;
 }
 
 .spanPrime {
@@ -616,6 +614,8 @@ body {
   font-weight: 500;
   line-height: 1.5rem;
   color: #171a1fff;
+  width: 100%;
+  max-width: 32ch;
 }
 
 .aH3Porque {
@@ -678,6 +678,8 @@ body {
   line-height: 1.6rem;
   font-weight: 700;
   color: #000000ff;
+  width: 100%;
+  max-width: 20ch;
 }
 
 .PGridTwo {
@@ -686,12 +688,15 @@ body {
   font-weight: 400;
   line-height: 1.3rem;
   color: #171a1fff;
+  width: 100%;
+  max-width: 30ch;
 }
 
 /* Section localizacao */
 
 .Localizacao {
   background: #000000ff;
+  padding: 1.5rem;
 }
 
 .divlocalizacao {
@@ -710,16 +715,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .h2Locali {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 3rem;
-  line-height: 2.5rem;
+  line-height: 3.1rem;
   font-weight: 700;
   color: #f3f4f6ff;
-  gap: 1rem;
 }
 
 .spanLocali {
@@ -735,6 +739,8 @@ body {
   font-weight: 500;
   line-height: 1.75rem;
   color: #bdc1caff;
+  width: 100%;
+  max-width: 40ch;
 }
 
 .aLocali {
@@ -821,6 +827,8 @@ body {
   font-weight: 400;
   line-height: 1.5rem;
   color: #bdc1caff;
+  width: 100%;
+  max-width: 30ch;
 }
 
 /* Clientes */
@@ -837,8 +845,8 @@ body {
   max-width: 1200px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 5rem;
-  gap: 5rem;
+  padding: 3rem;
+  gap: 3rem;
 }
 
 .divH2H3Clientes {
@@ -852,10 +860,11 @@ body {
 .h2Clientes {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 3rem;
-  line-height: 2.5rem;
+  line-height: 3.1rem;
   font-weight: 700;
   color: #000000ff;
   gap: 1rem;
+  width: 100%;
 }
 
 .spanClientes {
@@ -905,6 +914,7 @@ body {
   border: 1px solid #323743ff;
   border-radius: 1rem;
   padding: 1rem;
+  overflow: hidden;
 }
 
 .imgEstrelas {
@@ -941,6 +951,7 @@ body {
 
 .Pronto {
   background: #000000ff;
+  padding: 1rem;
 }
 
 .divPronto {
@@ -978,6 +989,8 @@ body {
   font-weight: 500;
   line-height: 2.063rem;
   color: #bdc1caff;
+  width: 100%;
+  max-width: 45ch;
 }
 
 .divAPronto {
@@ -1224,5 +1237,688 @@ body {
 
   .aProntoSolici:hover {
     color: green;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 380px) {
+  /* nav */
+  .nav {
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .logo {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .liServico,
+  .liCatalogo,
+  .liLocalizacao {
+    font-size: 0.9rem;
+  }
+  .aOrcamento {
+    display: none;
+  }
+  /* main */
+
+  .divH1H2Main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .h1Main {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    max-width: 100%;
+  }
+
+  .h2Main {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .divTodasAMain {
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .divAMain,
+  .divADoisMain {
+    padding: 0.5rem 0.1rem;
+  }
+
+  .aMainSolic {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  /* catalogo */
+
+  .divH2H3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .h2Catalogo {
+    font-size: 2rem;
+  }
+
+  .h3Catalogo {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 100%;
+  }
+  .gridCatalogo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .divPrecos {
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .aPedir {
+    font-size: 0.9rem;
+  }
+
+  /* Servicos */
+
+  .divGridServicos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .h3Servicos {
+    line-height: 3.2rem;
+  }
+  .pAlem {
+    line-height: 1.5rem;
+  }
+
+  /* A Arte */
+  .divAArte {
+    flex-direction: column-reverse;
+  }
+
+  .divArteH3P {
+    align-items: center;
+    text-align: center;
+  }
+
+  .h3Arte {
+    line-height: 3.1rem;
+  }
+
+  .PArte,
+  .pArteDois {
+    max-width: 100%;
+  }
+
+  .imgAArte {
+    padding: 2rem;
+    border-radius: 2.9rem;
+  }
+
+  /* por que */
+
+  .divPorQue {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .divH3PAPorque {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divGridPorQue {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  /* localizacao */
+
+  .divlocalizacao {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .h2h3div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .enderecoHorario {
+    align-items: center;
+  }
+  /* Clientes */
+
+  .divClientes {
+    text-align: center;
+  }
+
+  .gridsClientes {
+    grid-template-columns: 1fr;
+  }
+
+  .gridCliente {
+    text-align: left;
+  }
+
+  .divVideoCliente {
+    max-width: 80%;
+  }
+
+  /* Pronto */
+
+  .h2Pronto {
+    font-size: 3rem;
+    line-height: 3.1rem;
+  }
+
+  .divPronto {
+    gap: 1.1rem;
+  }
+
+  .h3Pronto {
+    font-size: 1.1rem;
+  }
+
+  .divAPronto {
+    max-width: 18rem;
+  }
+
+  .aProntoSolici {
+    font-size: 1.1rem;
+  }
+
+  /* footer */
+
+  .gridsFooter {
+    grid-template-columns: 1fr;
+    place-items: center;
+    justify-items: center;
+    gap: 3rem;
+  }
+
+  .gridFooter {
+    align-items: center;
+    text-align: center;
+  }
+
+  .gridFooterThree {
+    align-items: center;
+  }
+
+  .gridFooterFour {
+    align-items: center;
+  }
+
+  .divP2026 {
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 390px) {
+  /* Nav */
+
+  .nav {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .logo {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .liServico,
+  .liCatalogo,
+  .liLocalizacao {
+    font-size: 0.9rem;
+  }
+  .aOrcamento {
+    display: none;
+  }
+  /* main */
+
+  .divH1H2Main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .h1Main {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    max-width: 100%;
+  }
+
+  .h2Main {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .divTodasAMain {
+    width: 100%;
+  }
+
+  .divAMain,
+  .divADoisMain {
+    padding: 0.5rem 0.3rem;
+  }
+
+  .aMainSolic {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  /* catalogo */
+
+  .divH2H3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .h2Catalogo {
+    font-size: 2rem;
+  }
+
+  .h3Catalogo {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 100%;
+  }
+  .gridCatalogo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .divPrecos {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .aPedir {
+    font-size: 0.9rem;
+  }
+
+  /* Servicos */
+
+  .divGridServicos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .h3Servicos {
+    line-height: 3.2rem;
+  }
+  .pAlem {
+    line-height: 1.5rem;
+  }
+
+  /* A Arte */
+  .divAArte {
+    flex-direction: column-reverse;
+  }
+
+  .divArteH3P {
+    align-items: center;
+    text-align: center;
+  }
+
+  .h3Arte {
+    line-height: 3.1rem;
+  }
+
+  .imgAArte {
+    padding: 2rem;
+    border-radius: 2.9rem;
+  }
+
+  /* por que */
+
+  .divPorQue {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .divH3PAPorque {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* localizacao */
+
+  .divlocalizacao {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .h2h3div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .enderecoHorario {
+    align-items: center;
+  }
+  /* Clientes */
+
+  .divClientes {
+    text-align: center;
+  }
+
+  .gridsClientes {
+    grid-template-columns: 1fr;
+  }
+
+  .gridCliente {
+    text-align: left;
+  }
+
+  .divVideoCliente {
+    max-width: 80%;
+  }
+
+  /* Pronto */
+
+  .h2Pronto {
+    font-size: 3rem;
+    line-height: 3.1rem;
+  }
+
+  .divPronto {
+    gap: 1.1rem;
+  }
+
+  .h3Pronto {
+    font-size: 1.1rem;
+  }
+
+  /* footer */
+
+  .gridsFooter {
+    grid-template-columns: 1fr;
+    place-items: center;
+    justify-items: center;
+    gap: 3rem;
+  }
+
+  .gridFooter {
+    align-items: center;
+    text-align: center;
+  }
+
+  .gridFooterThree {
+    align-items: center;
+  }
+
+  .gridFooterFour {
+    align-items: center;
+  }
+
+  .divP2026 {
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 767px) {
+  /* Nav */
+
+  .logo {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .liServico,
+  .liCatalogo,
+  .liLocalizacao {
+    font-size: 1rem;
+  }
+  .aOrcamento {
+    display: none;
+  }
+  /* main */
+
+  .divH1H2Main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .h1Main {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    max-width: 100%;
+  }
+
+  .h2Main {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .divTodasAMain {
+    width: 100%;
+  }
+  .divAMain,
+  .divADoisMain {
+    padding: 0.9rem;
+  }
+
+  .aMainSolic {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  /* catalogo */
+
+  .divH2H3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .h2Catalogo {
+    font-size: 2.5rem;
+  }
+
+  .h3Catalogo {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    max-width: 100%;
+  }
+  .gridCatalogo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .divCatalogo {
+    padding: 4rem;
+  }
+
+  .divPrecos {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .aPedir {
+    font-size: 0.9rem;
+  }
+
+  /* Servicos */
+
+  .divGridServicos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pAlem {
+    line-height: 1.5rem;
+  }
+
+  /* A Arte */
+  .divAArte {
+    flex-direction: column-reverse;
+  }
+
+  .divArteH3P {
+    align-items: center;
+    text-align: center;
+  }
+
+  .h3Arte {
+    line-height: 3.1rem;
+  }
+
+  /* por que */
+
+  .divPorQue {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .divH3PAPorque {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* localizacao */
+
+  .divlocalizacao {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .h2h3div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .enderecoHorario {
+    align-items: center;
+  }
+  /* Clientes */
+
+  .divClientes {
+    text-align: center;
+  }
+
+  .gridsClientes {
+    grid-template-columns: 1fr;
+  }
+
+  .gridCliente {
+    text-align: left;
+  }
+
+  .divVideoCliente {
+    max-width: 80%;
+  }
+
+  /* Pronto */
+
+  .h2Pronto {
+    font-size: 3rem;
+    line-height: 3.1rem;
+  }
+
+  .divPronto {
+    gap: 1.1rem;
+  }
+
+  .h3Pronto {
+    font-size: 1.1rem;
+  }
+
+  /* footer */
+
+  .gridsFooter {
+    grid-template-columns: 1fr;
+    place-items: center;
+    justify-items: center;
+    gap: 3rem;
+  }
+
+  .gridFooter {
+    align-items: center;
+    text-align: center;
+  }
+
+  .gridFooterThree {
+    align-items: center;
+  }
+
+  .gridFooterFour {
+    align-items: center;
+  }
+
+  .divP2026 {
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* nav */
+  .logo {
+    width: 8rem;
+    height: 8rem;
+  }
+  /* main */
+
+  .divH1H2Main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .divTodasAMain {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h1Main {
+    font-size: 5rem;
+    line-height: 5.3rem;
+  }
+
+  .h2Main {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  /* catalogo */
+  .gridCatalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .divGridOne {
+    align-items: center;
+  }
+  /* serviços */
+  .divGridServicos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* A Arte */
+  .divAArte {
+    flex-direction: column-reverse;
+  }
+
+  .divArteH3P {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  /* nav */
+  .logo {
+    width: 7rem;
+    height: 7rem;
   }
 }
