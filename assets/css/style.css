@@ -1281,6 +1281,8 @@ body {
   .divTodasAMain {
     gap: 1rem;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .divAMain,
@@ -1504,6 +1506,8 @@ body {
   }
 
   .divTodasAMain {
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
 
@@ -1705,6 +1709,8 @@ body {
 
   .divTodasAMain {
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .divAMain,
   .divADoisMain {
