@@ -52,7 +52,7 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <div class="divLogoP">
+        <div class="divLogoP esquerda">
           <img
             class="logo"
             src="assets/img/Logo.webp"
@@ -61,32 +61,62 @@
         </div>
         <!-- DIV/UL -->
         <ul class="ulNav">
-          <li class="liServico">Serviço</li>
-          <li class="liCatalogo">Catálogo</li>
-          <li class="liLocalizacao">Localização</li>
+          <li class="liCatalogo cima">
+            <a class="aCatalogoMenu click" href="#Catalogo">Catálogo</a>
+          </li>
+          <li class="liServico cima">
+            <a class="aServicoMenu click" href="#Servicos">Serviço</a>
+          </li>
+          <li class="liLocalizacao cima">
+            <a class="aLocaliMenu click" href="#Localizacao">Localização</a>
+          </li>
         </ul>
         <!-- DIV -->
-        <div class="divANav">
+        <div class="divANav direita">
           <a class="aOrcamento" href="">Orçamento</a>
         </div>
+        <!-- Menu Hamburguer -->
+        <img
+          id="MenuH"
+          class="MenuH direita"
+          src="assets/img/menu-hamburguer.webp"
+          alt="Menu da JM Gráfica - Impressões Premium em Goiânia "
+        />
       </nav>
     </header>
+    <!-- Ul Menu Mobile -->
+    <nav id="MenuMobile" class="MenuMobile">
+      <ul class="ulNavMobile">
+        <li class="liServicoMobile limobile">
+          <a class="aServicoMobile esquerda" href="#Servicos">Serviço</a>
+        </li>
+        <li class="liCatalogoMobile limobile">
+          <a class="aCatalogoMobile direita" href="#Catalogo">Catálogo</a>
+        </li>
+        <li class="liLocalizacaoMobile limobile">
+          <a class="aLocalizaMobile esquerda" href="#Localizacao"
+            >Localização</a
+          >
+        </li>
+      </ul>
+      <a class="aOrcamentoMobile baixo" href="">Orçamento</a>
+    </nav>
     <!-- Main -->
     <main class="main">
       <!-- DIV -->
       <div class="divMain">
         <div class="divH1H2Main">
-          <h1 class="h1Main">
+          <h1 class="h1Main esquerda">
             Impressões de <span class="SpanH1Main">Alto Padrão</span> para
             Marcas Exigentes
           </h1>
-          <h2 class="h2Main">
+          <h2 class="h2Main direita">
             Transforme sua identidade visual em uma experiência tátil
             inesquecível. Qualidade premium, rapidez e acabamento profissional
             para destacar o seu negócio no mercado.
           </h2>
           <div class="divTodasAMain">
-            <div class="divAMain">
+            <div class="divAMain baixo">
               <img
                 class="imgA"
                 src="assets/img/balao.webp"
@@ -94,13 +124,13 @@
               />
               <a class="aMainSolic" href="">Solicitar Orçamento</a>
             </div>
-            <div class="divADoisMain">
+            <div class="divADoisMain baixo">
               <img
                 class="imgADois"
                 src="assets/img/seta.webp"
                 alt="Ícone de seta indicando navegação para o catálogo"
               />
-              <a class="aMainVer" href="">Ver Catálogo</a>
+              <a class="aMainVer" href="#Catalogo">Ver Catálogo</a>
             </div>
           </div>
         </div>
@@ -108,10 +138,10 @@
       <!-- DIV -->
     </main>
     <!-- Section Catalogo -->
-    <section class="catalogo">
+    <section id="Catalogo" class="catalogo">
       <div class="divCatalogo">
         <div class="catalogo">
-          <div class="divH2H3">
+          <div class="divH2H3 esquerda">
             <h2 class="h2Catalogo">Catálogo</h2>
             <h3 class="h3Catalogo">
               Conheça nossos produtos mais requisitados. Projetados para
@@ -120,7 +150,7 @@
           </div>
           <!-- div -->
           <div class="gridCatalogo">
-            <div class="divGridOne">
+            <div class="divGridOne esquerda">
               <img
                 class="imgGridOne"
                 src="assets/img/cartao.webp"
@@ -140,7 +170,7 @@
               </div>
             </div>
             <!-- div -->
-            <div class="divGridOne">
+            <div class="divGridOne baixo">
               <img class="imgGridOne" src="assets/img/catalogo.webp" alt="" />
               <div class="divPGrid">
                 <p class="pCartoes">Catálogos Comerciais</p>
@@ -156,7 +186,7 @@
               </div>
             </div>
             <!-- div -->
-            <div class="divGridOne">
+            <div class="divGridOne direita">
               <img class="imgGridOne" src="assets/img/embalagens.webp" alt="" />
               <div class="divPGrid">
                 <p class="pCartoes">Embalagens Personalizadas</p>
@@ -172,7 +202,7 @@
               </div>
             </div>
             <!-- div -->
-            <div class="divGridOne">
+            <div class="divGridOne esquerda">
               <img
                 class="imgGridOne"
                 src="assets/img/adesivo vinil.webp"
@@ -192,7 +222,7 @@
               </div>
             </div>
             <!-- div -->
-            <div class="divGridOne">
+            <div class="divGridOne baixo">
               <img
                 class="imgGridOne"
                 src="assets/img/pastaCorporativa.webp"
@@ -212,7 +242,7 @@
               </div>
             </div>
             <!-- div -->
-            <div class="divGridOne">
+            <div class="divGridOne direita">
               <img
                 class="imgGridOne"
                 src="assets/img/papelaria_institucional_emresa_seguros_dn2a-1.webp"
@@ -237,20 +267,21 @@
       </div>
     </section>
     <!-- Section Serviços Especializados -->
-    <section class="Servicos">
+    <section id="Servicos" class="Servicos">
       <div class="divServicos">
         <div class="divH3P">
-          <h3 class="h3Servicos">
-            Serviços <span class="spanEspecializados">Especializados</span>
+          <h3 class="h3Servicos esquerda">
+            Serviços
+            <span class="spanEspecializados">Especializados</span>
           </h3>
-          <p class="pAlem">
+          <p class="pAlem baixo">
             Além da impressão, oferecemos um ecossistema completo para garantir
             que seu material gráfico atinja a perfeição.
           </p>
         </div>
         <!-- div -->
         <div class="divGridServicos">
-          <div class="gridServicos">
+          <div class="gridServicos esquerda">
             <div class="divImgGrid">
               <img
                 class="imgGridServicos"
@@ -266,7 +297,7 @@
             </p>
           </div>
           <!-- div -->
-          <div class="gridServicos">
+          <div class="gridServicos esquerda">
             <div class="divImgGrid">
               <img
                 class="imgGridServicos"
@@ -282,7 +313,7 @@
             </p>
           </div>
           <!-- div -->
-          <div class="gridServicos">
+          <div class="gridServicos direita">
             <div class="divImgGrid">
               <img
                 class="imgGridServicos"
@@ -298,7 +329,7 @@
             </p>
           </div>
           <!-- div -->
-          <div class="gridServicos">
+          <div class="gridServicos direita">
             <div class="divImgGrid">
               <img
                 class="imgGridServicos"
@@ -320,7 +351,7 @@
     <!-- Section a arte da impressão -->
     <section class="AArte">
       <div class="divAArte">
-        <figure class="figureAArte">
+        <figure class="figureAArte esquerda">
           <img
             class="imgAArte"
             src="assets/img/IMAGEM iILUSTRATIVA.webp"
@@ -329,22 +360,22 @@
         </figure>
         <!-- div -->
         <div class="divArteH3P">
-          <h3 class="h3Arte">
+          <h3 class="h3Arte direita">
             A Arte da <span class="spanh3">Impressão Perfeita</span>
           </h3>
-          <p class="PArte">
+          <p class="PArte direita">
             Fundada com a premissa de que cada marca merece ser representada com
             máxima fidelidade e luxo, a Gráfica Prime combina tecnologia de
             ponta com o cuidado artesanal em acabamentos.
           </p>
-          <p class="pArteDois">
+          <p class="pArteDois direita">
             Não somos apenas fornecedores; somos parceiros estratégicos na
             construção da percepção de valor do seu negócio através de materiais
             físicos que encantam ao primeiro toque.
           </p>
-          <hr class="hrH3PP" />
+          <hr class="hrH3PP esquerda" />
           <!-- div -->
-          <div class="div30e10">
+          <div class="div30e10 baixo">
             <div class="div30">
               <p class="p30">30+</p>
               <p class="pAnos">Anos de Mercado</p>
@@ -361,18 +392,18 @@
     <section class="Por-Que-Escolher">
       <div class="divPorQue">
         <div class="divH3PAPorque">
-          <h3 class="h3Porque">
+          <h3 class="h3Porque cima">
             Por que escolher a <span class="spanPrime">Prime?</span>
           </h3>
-          <p class="PPorque">
+          <p class="PPorque esquerda">
             Nosso compromisso vai além do papel. É sobre garantir que sua marca
             seja inesquecível.
           </p>
-          <a class="aH3Porque" href="">Fale com um Especialista</a>
+          <a class="aH3Porque baixo" href="">Fale com um Especialista</a>
         </div>
         <!-- div -->
         <div class="divGridPorQue">
-          <div class="GridPorque">
+          <div class="GridPorque cima">
             <!-- div -->
             <div class="divOnegrid">
               <img
@@ -389,7 +420,7 @@
             </div>
           </div>
           <!-- div -->
-          <div class="GridPorque">
+          <div class="GridPorque cima">
             <!-- div -->
             <div class="divOnegrid">
               <img
@@ -407,7 +438,7 @@
             </div>
           </div>
           <!-- div -->
-          <div class="GridPorque">
+          <div class="GridPorque baixo">
             <!-- div -->
             <div class="divOnegrid">
               <img
@@ -429,9 +460,9 @@
       </div>
     </section>
     <!-- Section -->
-    <section class="Localizacao">
+    <section id="Localizacao" class="Localizacao">
       <div class="divlocalizacao">
-        <div class="h2h3div">
+        <div class="h2h3div cima">
           <h2 class="h2Locali">
             Nossa <span class="spanLocali"> Localização</span>
           </h2>
@@ -443,7 +474,7 @@
           <!-- div -->
         </div>
         <!-- div -->
-        <div class="enderecoHorario">
+        <div class="enderecoHorario baixo">
           <div class="divEndereco">
             <div class="endereco">
               <img
@@ -457,8 +488,8 @@
             <div class="psEndereco">
               <p class="pEnderecoOne">Endereço Prime</p>
               <p class="pEnderecoTwo">
-                Av. Paulista, 1000 - Cerqueira César São Paulo, SP - CEP
-                01310-100
+                Av. República, quadra 80 lote 01, Garavelo Park / Goiânia - GO -
+                CEP 74530930
               </p>
             </div>
           </div>
@@ -476,7 +507,7 @@
             <div class="psHorario">
               <p class="pHorarioOne">Horário de Atendimento</p>
               <p class="pHorarioTwo">
-                Segunda a Sexta: 08:00 às 18:00 Atendemos presencialmente e
+                Segunda a Sexta: 08:30 às 18:00 Atendemos presencialmente e
                 online.
               </p>
             </div>
@@ -488,16 +519,16 @@
     <section class="Clientes">
       <div class="divClientes">
         <div class="divH2H3Clientes">
-          <h2 class="h2Clientes">
+          <h2 class="h2Clientes cima">
             O que dizem nossos <span class="spanClientes">Clientes</span>
           </h2>
-          <h3 class="h3Clientes">
+          <h3 class="h3Clientes baixo">
             A satisfação daqueles que confiam suas marcas às nossas impressoras.
           </h3>
         </div>
         <!-- div -->
         <div class="gridsClientes">
-          <div class="gridCliente">
+          <div class="gridCliente esquerda">
             <img
               class="imgEstrelas"
               src="assets/img/estrelas-_1_.webp"
@@ -507,15 +538,33 @@
             <p class="pGridOneClientes">
               "A JM Gráfica elevou o padrão dos nossos materiais. A qualidade do
               hot stamping nos catálogos é impecável. O atendimento é ágil e
-              extremamente profissional.""
+              extremamente profissional."
             </p>
             <p class="pGridTwoClientes">
               Ricardo Almeida <br />
+              <span class="spanGridClientes">Diretor de Marketing</span>
+            </p>
+          </div>
+          <!-- div -->
+          <div class="gridCliente baixo">
+            <img
+              class="imgEstrelas"
+              src="assets/img/estrelas-_1_.webp"
+              alt="Imagem de cinco estrelas de atendimento da JM Gráfica, atendendo Goiânia e Aparecida de Goiânia com impressões de alta qualidade."
+              loading="lazy"
+            />
+            <p class="pGridOneClientes">
+              "Meus cartões de visita sempre recebem elogios graças ao
+              acabamento que a Prime sugeriu. Eles entendem de sofisticação como
+              poucas gráficas no mercado."
+            </p>
+            <p class="pGridTwoClientes">
+              Reinaldo Silva <br />
               <span class="spanGridClientes">Engenheiro</span>
             </p>
           </div>
           <!-- div -->
-          <div class="gridCliente">
+          <div class="gridCliente direita">
             <img
               class="imgEstrelas"
               src="assets/img/estrelas-_1_.webp"
@@ -523,37 +572,19 @@
               loading="lazy"
             />
             <p class="pGridOneClientes">
-              "A JM Gráfica elevou o padrão dos nossos materiais. A qualidade do
-              hot stamping nos catálogos é impecável. O atendimento é ágil e
-              extremamente profissional.""
+              "Precisávamos de pastas e propostas impressas para um grande pitch
+              de negócios em prazo recorde. A Prime entregou não apenas no
+              prazo, mas com uma qualidade que impressionou os investidores."
             </p>
             <p class="pGridTwoClientes">
-              Ricardo Almeida <br />
-              <span class="spanGridClientes">Engenheiro</span>
-            </p>
-          </div>
-          <!-- div -->
-          <div class="gridCliente">
-            <img
-              class="imgEstrelas"
-              src="assets/img/estrelas-_1_.webp"
-              alt="Imagem de cinco estrelas de atendimento da JM Gráfica, atendendo Goiânia e Aparecida de Goiânia com impressões de alta qualidade."
-              loading="lazy"
-            />
-            <p class="pGridOneClientes">
-              "A JM Gráfica elevou o padrão dos nossos materiais. A qualidade do
-              hot stamping nos catálogos é impecável. O atendimento é ágil e
-              extremamente profissional.""
-            </p>
-            <p class="pGridTwoClientes">
-              Ricardo Almeida <br />
-              <span class="spanGridClientes">Engenheiro</span>
+              André Carlos <br />
+              <span class="spanGridClientes">Diretor</span>
             </p>
           </div>
           <!-- div -->
         </div>
         <!-- Div -->
-        <div class="divVideoCliente">
+        <div class="divVideoCliente baixo">
           <video
             class="videoCliente"
             controls
@@ -569,15 +600,15 @@
     <!-- Section -->
     <section class="Pronto">
       <div class="divPronto">
-        <h2 class="h2Pronto">
+        <h2 class="h2Pronto cima">
           Pronto para <br /><span class="spanPronto">impressionar?</span>
         </h2>
-        <h3 class="h3Pronto">
+        <h3 class="h3Pronto cima">
           Nossa equipe de especialistas está pronta para orientar você na
           escolha dos melhores materiais e acabamentos para o seu projeto.
         </h3>
         <!-- div -->
-        <div class="divAPronto">
+        <div class="divAPronto baixo">
           <img
             class="imgPronto"
             src="assets/img/balao.webp"
@@ -585,7 +616,7 @@
           />
           <a class="aProntoSolici" href="">Falar no WhatsApp agora</a>
         </div>
-        <p class="pPronto">
+        <p class="pPronto baixo">
           Resposta média em menos de 15 minutos em horário comercial.
         </p>
       </div>
@@ -594,7 +625,7 @@
     <footer class="footer">
       <div class="divFooter">
         <div class="gridsFooter">
-          <div class="gridFooter">
+          <div class="gridFooter esquerda">
             <img
               class="imgFooter"
               src="assets/img/Logo.webp"
@@ -606,14 +637,14 @@
             </p>
           </div>
           <!-- div Grid -->
-          <div class="gridFooterTwo">
+          <div class="gridFooterTwo baixo">
             <p class="pMenu">Menu</p>
             <a class="aCatalogo" href="">Catálogo</a>
             <a class="aServico" href="">Serviços</a>
             <a class="aLocalizacao" href="">Localização</a>
           </div>
           <!-- div Grid -->
-          <div class="gridFooterThree">
+          <div class="gridFooterThree baixo">
             <p class="pContato">Contato</p>
             <div class="divTelefone">
               <img
@@ -621,7 +652,7 @@
                 src="assets/img/telefone.webp"
                 alt="Ícone de telefone para contato"
               />
-              <p class="pTelefone">(11) 99999-9999</p>
+              <p class="pTelefone">(62) 99974-0547</p>
             </div>
             <div class="divEnderecoFooter">
               <img
@@ -629,11 +660,13 @@
                 src="assets/img/mapas.webp"
                 alt="Ícone de localização"
               />
-              <p class="pEndereFooter">Av. Paulista, 1000 São Paulo, SP</p>
+              <p class="pEndereFooter">
+                Av. República, quadra 80 lote 01, Garavelo Park / Goiânia - GO
+              </p>
             </div>
           </div>
           <!-- div Grid -->
-          <div class="gridFooterFour">
+          <div class="gridFooterFour direita">
             <p class="pRede">Rede Social</p>
             <img
               class="imgRede"
@@ -646,8 +679,12 @@
       </div>
       <hr class="hrFooter" />
       <div class="divP2026">
-        <p class="p2026">© 2026 Gráfica Prime. Todos os direitos reservados.</p>
-        <p class="pFeito">Feito com foco em conversão e design premium.</p>
+        <p class="p2026 esquerda">
+          © 2026 Gráfica Prime. Todos os direitos reservados.
+        </p>
+        <p class="pFeito direita">
+          Feito com foco em conversão e design premium.
+        </p>
       </div>
     </footer>
     <script type="module" src="assets/js/main.js"></script>
