@@ -2101,8 +2101,8 @@ body {
 @media (min-width: 1024px) and (max-width: 1400px) {
   /* nav */
   .logo {
-    width: 5rem;
-    height: 5rem;
+    width: 5.5rem;
+    height: 5.5rem;
   }
 
   .aCatalogoMenu,
