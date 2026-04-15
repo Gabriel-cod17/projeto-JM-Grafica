@@ -1172,7 +1172,7 @@ html {
 .aLocalizacao {
   text-decoration: none;
   font-family: "Inter", sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   font-weight: 300;
   line-height: 1.25rem;
   color: #171a1fff;
@@ -1377,13 +1377,19 @@ html {
     height: 6rem;
   }
 
-  .liServico,
-  .liCatalogo,
-  .liLocalizacao {
-    font-size: 0.9rem;
+  .ulNav {
+    display: none;
   }
   .aOrcamento {
     display: none;
+  }
+
+  .MenuMobile {
+    display: none;
+  }
+
+  .MenuH {
+    display: flex;
   }
   /* main */
 
@@ -1415,10 +1421,12 @@ html {
     padding: 0.5rem 0.1rem;
   }
 
-  .aMainSolic {
+  .aMainSolic,
+  .aMainVer {
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.5rem;
+    padding: 0.3rem;
   }
   /* catalogo */
 
@@ -1448,6 +1456,8 @@ html {
 
   .aPedir {
     font-size: 0.9rem;
+    background: #fac72eff;
+    color: #000000ff;
   }
 
   /* Servicos */
@@ -1554,11 +1564,13 @@ html {
   }
 
   .divAPronto {
-    max-width: 18rem;
+    gap: 1.1rem;
+    background: #ffffffff;
+    border: 1px solid green;
   }
 
   .aProntoSolici {
-    font-size: 1.1rem;
+    color: green;
   }
 
   /* footer */
@@ -1647,10 +1659,12 @@ html {
     padding: 0.5rem 0.3rem;
   }
 
-  .aMainSolic {
+  .aMainSolic,
+  .aMainVer {
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.5rem;
+    padding: 0.3rem;
   }
   /* catalogo */
 
@@ -1680,6 +1694,8 @@ html {
 
   .aPedir {
     font-size: 0.9rem;
+    background: #fac72eff;
+    color: #000000ff;
   }
 
   /* Servicos */
@@ -1774,6 +1790,15 @@ html {
     font-size: 1.1rem;
   }
 
+  .divAPronto {
+    background: #ffffffff;
+    border: 1px solid green;
+  }
+
+  .aProntoSolici {
+    color: green;
+  }
+
   /* footer */
 
   .gridsFooter {
@@ -1820,7 +1845,7 @@ html {
   }
 
   .MenuMobile {
-    display: flex;
+    display: none;
   }
 
   .MenuH {
@@ -1854,10 +1879,12 @@ html {
     padding: 0.5rem;
   }
 
-  .aMainSolic {
+  .aMainSolic,
+  .aMainVer {
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.5rem;
+    padding: 0.3rem;
   }
   /* catalogo */
 
@@ -1890,6 +1917,8 @@ html {
 
   .aPedir {
     font-size: 0.9rem;
+    background: #fac72eff;
+    color: #000000ff;
   }
 
   /* Servicos */
@@ -1967,8 +1996,14 @@ html {
     line-height: 3.1rem;
   }
 
-  .divPronto {
+  .divAPronto {
     gap: 1.1rem;
+    background: #ffffffff;
+    border: 1px solid green;
+  }
+
+  .aProntoSolici {
+    color: green;
   }
 
   .h3Pronto {
@@ -2034,6 +2069,12 @@ html {
     line-height: 2rem;
   }
 
+  .aPedir {
+    font-size: 0.9rem;
+    background: #fac72eff;
+    color: #000000ff;
+  }
+
   /* catalogo */
   .gridCatalogo {
     display: grid;
@@ -2064,4 +2105,53 @@ html {
     width: 7rem;
     height: 7rem;
   }
+
+  .aCatalogoMenu,
+  .aServicoMenu,
+  .aLocaliMenu {
+    font-size: 1rem;
+  }
+
+  .aOrcamento {
+    font-size: 1rem;
+  }
+
+  /* main */
+
+  .h1Main {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    max-width: 15ch;
+  }
+  .h2Main {
+    font-size: 1.2rem;
+  }
+
+  /* Catalogo */
+
+  .h2Catalogo {
+    font-size: 2.3rem;
+  }
+
+  .h3Catalogo {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .divGridOne {
+    max-width: 19rem;
+  }
+
+  /* serviços */
+
+  .h3Servicos {
+    font-size: 2.5rem;
+  }
+
+  .pAlem {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  /* A Arte */
 }
